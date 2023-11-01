@@ -1,0 +1,42 @@
+export default {
+  bodies: [
+    {
+      id: "body1",
+      shape: "rectangle",
+      x: 300,
+      y: 450,
+      height: 50,
+      width: 50,
+      type: "destroyable",
+    },
+    {
+      id: "body2",
+      shape: "rectangle",
+      x: 500,
+      y: 450,
+      height: 50,
+      width: 50,
+      type: "obstacle",
+    },
+    {
+      id: "body3",
+      shape: "rectangle",
+      x: 700,
+      y: 450,
+      height: 50,
+      width: 50,
+      type: "destroyable",
+    },
+    {
+      id: "body4",
+      shape: "trapezoid",
+      x: 500,
+      y: 150,
+      height: 100,
+      width: 200,
+      slope: 0.7,
+      angle: Math.PI,
+      type: "obstacle",
+    },
+  ],
+};
